@@ -1,0 +1,213 @@
+{
+    "trademarkList": [
+        {
+            "tmId": 3,
+            "tmName": "华为"
+        },
+        {
+            "tmId": 1,
+            "tmName": "小米"
+        },
+        {
+            "tmId": 2,
+            "tmName": "苹果"
+        },
+        {
+            "tmId": 6,
+            "tmName": "VIVO"
+        },
+        {
+            "tmId": 24,
+            "tmName": "联想"
+        },
+        {
+            "tmId": 26,
+            "tmName": "海信"
+        },
+        {
+            "tmId": 27,
+            "tmName": "戴尔"
+        }
+    ],
+    "attrsList": [
+        {
+            "attrId": 23,
+            "attrValueList": [
+                "8G",
+                "4G",
+                "6G",
+                "12G",
+                "3G"
+            ],
+            "attrName": "运行内存"
+        },
+        {
+            "attrId": 24,
+            "attrValueList": [
+                "128G",
+                "256G",
+                "32G",
+                "512G"
+            ],
+            "attrName": "机身内存"
+        },
+        {
+            "attrId": 106,
+            "attrValueList": [
+                "安卓手机",
+                "苹果手机"
+            ],
+            "attrName": "手机一级"
+        },
+        {
+            "attrId": 107,
+            "attrValueList": [
+                "1200mAh以下",
+                "1200mAh到3000mAh",
+                "3000mAh以上"
+            ],
+            "attrName": "电池容量"
+        },
+        {
+            "attrId": 25,
+            "attrValueList": [
+                "i5"
+            ],
+            "attrName": "处理器"
+        },
+        {
+            "attrId": 26,
+            "attrValueList": [
+                "14.0"
+            ],
+            "attrName": "屏幕尺寸"
+        },
+        {
+            "attrId": 111,
+            "attrValueList": [
+                "骁龙845",
+                "麒麟990"
+            ],
+            "attrName": "CPU型号"
+        },
+        {
+            "attrId": 112,
+            "attrValueList": [
+                "6.85-6.94英寸",
+                "6.55-6.64英寸",
+                "6.65-6.74英寸"
+            ],
+            "attrName": "屏幕尺寸"
+        },
+        {
+            "attrId": 122,
+            "attrValueList": [
+                "轻薄笔记本"
+            ],
+            "attrName": "类型"
+        },
+        {
+            "attrId": 66,
+            "attrValueList": [
+                "15.6"
+            ],
+            "attrName": "屏幕尺寸"
+        }
+    ],
+    "goodsList": [
+        {
+            "id": 4,
+            "defaultImg": "http://47.93.148.192:8080/group1/M00/00/01/rBHu8l-rgJqAHPnoAAF9hoDNfsc505.jpg",
+            "title": "Redmi 10X 4G Helio G85游戏芯 4GB+128GB 冰雾白 游戏智能手机 小米 红米",
+            "price": 999.0,
+            "createTime": null,
+            "tmId": null,
+            "tmName": null,
+            "tmLogoUrl": null,
+            "category1Id": null,
+            "category1Name": null,
+            "category2Id": null,
+            "category2Name": null,
+            "category3Id": null,
+            "category3Name": null,
+            "hotScore": 0,
+            "attrs": null
+        },
+        {
+            "id": 5,
+            "defaultImg": "http://47.93.148.192:8080/group1/M00/00/01/rBHu8l-rgJqAHPnoAAF9hoDNfsc505.jpg",
+            "title": "Redmi 10X 4G Helio G85游戏芯 4GB+128GB 明月灰 游戏智能手机 小米 红米",
+            "price": 999.0,
+            "createTime": null,
+            "tmId": null,
+            "tmName": null,
+            "tmLogoUrl": null,
+            "category1Id": null,
+            "category1Name": null,
+            "category2Id": null,
+            "category2Name": null,
+            "category3Id": null,
+            "category3Name": null,
+            "hotScore": 0,
+            "attrs": null
+        },
+        {
+            "id": 7,
+            "defaultImg": "http://47.93.148.192:8080/group1/M00/00/01/rBHu8l-rgJqAHPnoAAF9hoDNfsc505.jpg",
+            "title": "Redmi 10X 4G Helio G85游戏芯  8GB+128GB 明月灰 游戏智能手机 小米 红米",
+            "price": 1299.0,
+            "createTime": null,
+            "tmId": null,
+            "tmName": null,
+            "tmLogoUrl": null,
+            "category1Id": null,
+            "category1Name": null,
+            "category2Id": null,
+            "category2Name": null,
+            "category3Id": null,
+            "category3Name": null,
+            "hotScore": 0,
+            "attrs": null
+        },
+        {
+            "id": 6,
+            "defaultImg": "http://47.93.148.192:8080/group1/M00/00/01/rBHu8l-rgJqAHPnoAAF9hoDNfsc505.jpg",
+            "title": "Redmi 10X 4G Helio G85游戏芯  8GB+128GB 冰雾白 游戏智能手机 小米 红米",
+            "price": 1299.0,
+            "createTime": null,
+            "tmId": null,
+            "tmName": null,
+            "tmLogoUrl": null,
+            "category1Id": null,
+            "category1Name": null,
+            "category2Id": null,
+            "category2Name": null,
+            "category3Id": null,
+            "category3Name": null,
+            "hotScore": 0,
+            "attrs": null
+        },
+        {
+            "id": 8,
+            "defaultImg": "http://47.93.148.192:8080/group1/M00/00/02/rBHu8l-rgfWAVRWzAABUiOmA0ic932.jpg",
+            "title": "Apple iPhone 12 (A2404) 64GB 黑色 支持移动联通电信5G 双卡双待手机",
+            "price": 8197.0,
+            "createTime": null,
+            "tmId": null,
+            "tmName": null,
+            "tmLogoUrl": null,
+            "category1Id": null,
+            "category1Name": null,
+            "category2Id": null,
+            "category2Name": null,
+            "category3Id": null,
+            "category3Name": null,
+            "hotScore": 0,
+            "attrs": null
+        }
+    ],
+    "total": 30,
+    "pageSize": 5,
+    "pageNo": 1,
+    "totalPages": 6
+}
