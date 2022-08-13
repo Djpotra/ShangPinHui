@@ -1,0 +1,236 @@
+{
+    "spuPosterList": [{
+        "id": "@increment()",
+        "createTime": "2022-05-12 13:58:41",
+        "updateTime": "2022-05-12 13:58:41",
+        "spuId": 2,
+        "imgName": "2b78b6fdabfd2fbe.jpg",
+        "imgUrl": "@dataImage(616x616)"
+    }, {
+        "id": "@increment()",
+        "createTime": "2022-05-12 13:58:41",
+        "updateTime": "2022-05-12 13:58:41",
+        "spuId": 2,
+        "imgName": "5d5c57ab443f5fbb.jpg",
+        "imgUrl": "@dataImage(616x616)"
+    }, {
+        "id": "@increment()",
+        "createTime": "2022-05-12 13:58:41",
+        "updateTime": "2022-05-12 13:58:41",
+        "spuId": 2,
+        "imgName": "cef3c55b8caad783.jpg",
+        "imgUrl": "@dataImage(616x616)"
+    }, {
+        "id": "@increment()",
+        "createTime": "2022-05-12 13:58:41",
+        "updateTime": "2022-05-12 13:58:41",
+        "spuId": 2,
+        "imgName": "6eaaecc91b9ad059.jpg",
+        "imgUrl": "@dataImage(616x616)"
+    }, {
+        "id": "@increment()",
+        "createTime": "2022-05-12 13:58:41",
+        "updateTime": "2022-05-12 13:58:41",
+        "spuId": 2,
+        "imgName": "b7bea7af48e935fd.jpg",
+        "imgUrl": "@dataImage(616x616)"
+    }],
+    "valuesSkuJson": "{\"5|7\":4,\"6|7\":5,\"5|8\":6,\"6|8\":7}",
+    "price": "@integer(500,10000)",
+    "categoryView": {
+        "id": "@increment()",
+        "createTime": "2021-12-10 01:31:41",
+        "updateTime": "2021-12-10 01:31:41",
+        "category1Id": 2,
+        "category1Name": "手机",
+        "category2Id": 13,
+        "category2Name": "手机通讯",
+        "category3Id": 61,
+        "category3Name": "手机"
+    },
+    "spuSaleAttrList": [{
+        "id": "@increment()",
+        "createTime": null,
+        "updateTime": null,
+        "spuId": 2,
+        "baseSaleAttrId": 1,
+        "saleAttrName": "颜色",
+        "spuSaleAttrValueList": [{
+            "id": "@increment()",
+            "createTime": null,
+            "updateTime": null,
+            "spuId": 2,
+            "baseSaleAttrId": 1,
+            "saleAttrValueName": "冰雾白",
+            "saleAttrName": "颜色",
+            "isChecked": "1"
+        }, {
+            "id": "@increment()",
+            "createTime": null,
+            "updateTime": null,
+            "spuId": 2,
+            "baseSaleAttrId": 1,
+            "saleAttrValueName": "明月灰",
+            "saleAttrName": "颜色",
+            "isChecked": "0"
+        }]
+    }, {
+        "id": "@increment()",
+        "createTime": null,
+        "updateTime": null,
+        "spuId": 2,
+        "baseSaleAttrId": 2,
+        "saleAttrName": "版本",
+        "spuSaleAttrValueList": [{
+            "id": "@increment()",
+            "createTime": null,
+            "updateTime": null,
+            "spuId": 2,
+            "baseSaleAttrId": 2,
+            "saleAttrValueName": "4G+128G",
+            "saleAttrName": "版本",
+            "isChecked": "1"
+        }, {
+            "id": "@increment()",
+            "createTime": null,
+            "updateTime": null,
+            "spuId": 2,
+            "baseSaleAttrId": 2,
+            "saleAttrValueName": "8G+128G",
+            "saleAttrName": "版本",
+            "isChecked": "0"
+        }]
+    }],
+    "skuInfo": {
+        "id": "@increment()",
+        "createTime": "2021-12-10 01:31:42",
+        "updateTime": "2022-04-02 15:23:16",
+        "spuId": 2,
+        "price": "@integer(500,10000)",
+        "skuName": "@csentence()",
+        "skuDesc": "@csentence()",
+        "weight": "1.00",
+        "tmId": 1,
+        "category3Id": 61,
+        "skuDefaultImg": "@dataImage(616x616)",
+        "isSale": 1,
+        "skuImageList": [{
+            "id": "@increment()",
+            "createTime": "2021-12-10 01:31:42",
+            "updateTime": "2021-12-10 01:31:42",
+            "skuId": 4,
+            "imgName": "2b78b6fdabfd2fbe.jpg",
+            "imgUrl": "@dataImage(616x616)",
+            "spuImgId": 7,
+            "isDefault": "1"
+        }, {
+            "id": "@increment()",
+            "createTime": "2021-12-10 01:31:42",
+            "updateTime": "2021-12-10 01:31:42",
+            "skuId": 4,
+            "imgName": "5d5c57ab443f5fbb.jpg",
+            "imgUrl": "@dataImage(616x616)",
+            "spuImgId": 8,
+            "isDefault": "0"
+        }, {
+            "id": "@increment()",
+            "createTime": "2021-12-10 01:31:42",
+            "updateTime": "2021-12-10 01:31:42",
+            "skuId": 4,
+            "imgName": "cef3c55b8caad783.jpg",
+            "imgUrl": "@dataImage(616x616)",
+            "spuImgId": 9,
+            "isDefault": "0"
+        }, {
+            "id": "@increment()",
+            "createTime": "2021-12-10 01:31:42",
+            "updateTime": "2021-12-10 01:31:42",
+            "skuId": 4,
+            "imgName": "6eaaecc91b9ad059.jpg",
+            "imgUrl": "@dataImage(616x616)",
+            "spuImgId": 10,
+            "isDefault": "0"
+        }, {
+            "id": "@increment()",
+            "createTime": "2021-12-10 01:31:42",
+            "updateTime": "2021-12-10 01:31:42",
+            "skuId": 4,
+            "imgName": "b7bea7af48e935fd.jpg",
+            "imgUrl": "@dataImage(616x616)",
+            "spuImgId": 11,
+            "isDefault": "0"
+        }],
+        "skuAttrValueList": [{
+            "id": "@increment()",
+            "createTime": "2021-12-10 01:31:41",
+            "updateTime": "2021-12-10 01:31:41",
+            "attrId": 106,
+            "valueId": 176,
+            "skuId": 4,
+            "attrName": "手机一级",
+            "valueName": "安卓手机"
+        }, {
+            "id": "@increment()",
+            "createTime": "2021-12-10 01:31:41",
+            "updateTime": "2021-12-10 01:31:41",
+            "attrId": 107,
+            "valueId": 177,
+            "skuId": 4,
+            "attrName": "二级手机",
+            "valueName": "小米"
+        }, {
+            "id": "@increment()",
+            "createTime": "2021-12-10 01:31:41",
+            "updateTime": "2021-12-10 01:31:41",
+            "attrId": 23,
+            "valueId": 14,
+            "skuId": 4,
+            "attrName": "运行内存",
+            "valueName": "4G"
+        }, {
+            "id": "@increment()",
+            "createTime": "2021-12-10 01:31:41",
+            "updateTime": "2021-12-10 01:31:41",
+            "attrId": 24,
+            "valueId": 82,
+            "skuId": 4,
+            "attrName": "机身内存",
+            "valueName": "128G"
+        }],
+        "skuSaleAttrValueList": [{
+            "id": "@increment()",
+            "createTime": "2021-12-10 01:31:42",
+            "updateTime": "2021-12-10 01:31:42",
+            "skuId": 4,
+            "spuId": 2,
+            "saleAttrValueId": 5,
+            "saleAttrId": 1,
+            "saleAttrName": "颜色",
+            "saleAttrValueName": "冰雾白"
+        }, {
+            "id": "@increment()",
+            "createTime": "2021-12-10 01:31:42",
+            "updateTime": "2021-12-10 01:31:42",
+            "skuId": 4,
+            "spuId": 2,
+            "saleAttrValueId": 7,
+            "saleAttrId": 2,
+            "saleAttrName": "版本",
+            "saleAttrValueName": "4G+128G"
+        }]
+    },
+    "skuAttrList": [{
+        "attrValue": "安卓手机",
+        "attrName": "手机一级"
+    }, {
+        "attrValue": "1200mAh以下",
+        "attrName": "电池容量"
+    }, {
+        "attrValue": "4G",
+        "attrName": "运行内存"
+    }, {
+        "attrValue": "128G",
+        "attrName": "机身内存"
+    }]
+
+}
