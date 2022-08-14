@@ -22,7 +22,8 @@ export const reqGetSearchInfo = (params)=>mockRequests({url:"/list",method:"post
 export const reqGoodsInfo = (skuId)=>mockRequests({url:`/item/${skuId}`,method:'get'});
 //将产品添加到购物车中（获取更新某一个产品的个数）
 ///api/cart/addToCart/{ skuId }/{ skuNum }  POST
-export const reqAddOrUpdateShopCart = (skuId,skuNum)=>requests({url:`/cart/addToCart/${skuId}/${skuNum}`,method:"post"})
+// export const reqAddOrUpdateShopCart = (skuId,skuNum)=>requests({url:`/cart/addToCart/${skuId}/${skuNum}`,method:"post"})
+export const reqAddOrUpdateShopCart = (skuId,skuNum)=>mockRequests({url:'/cart/addToCart/',method:"post",data:{skuId,skuNum}});
 
 //获取购物车列表数据接口
 //URL:/api/cart/cartList   method:get 

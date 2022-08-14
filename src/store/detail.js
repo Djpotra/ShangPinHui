@@ -20,11 +20,11 @@ const actions = {
     }
   },
   //加入购物车的||修改某一个产品的个数
-  async addOrUpdateShopCart({ commit }, { skuId, skuNum }) {
+  async addOrUpdateShopCart({ commit }, { skuId, skuNum, skuInfo}) {
     //发请求:前端带一些参数给服务器【需要存储这些数据】，存储成功了，没有给返回数据
     //不需要在三连环（仓库存储数据了）
     //注意:async函数执行返回的结果一定是一个promise【要么成功，要么失败】
-    let result = await reqAddOrUpdateShopCart(skuId, skuNum);
+    let result = await reqAddOrUpdateShopCart(skuId, skuNum, skuInfo);
     if (result.code == 200) {
       //返回的是成功的标记
       return "ok";

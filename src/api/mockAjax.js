@@ -29,7 +29,7 @@ requests.interceptors.response.use(
     return res.data;
   },
   (err) => {
-    alert("服务器响应数据失败");
+    // alert("服务器响应数据失败");
   }
 );
 //最终需要对外暴露（不对外暴露外面模块没办法使用）

@@ -43,8 +43,35 @@ Mock.mock("/mock/list", (data) => {
 
 Mock.mock(/\/mock\/item/,'get',{code:200,data:goodsinfo})
 
-let mockCartList = [];
-Mock.mock('/cart/cartList',{code:200,data:mockCartList});
+let mockCartList = new Map();
+let mockCartChecked = new Map();
+
+Mock.mock(/\/cart\/addToCart/,'post',(options)=>{
+    let {skuId,skuNum} = JSON.parse(options.body);
+    mockCartList.set(skuId,(mockCartList.has(skuId) ? mockCartList.get(skuId) : 0) + skuNum);
+    mockCartChecked.set(skuId,1);
+    return {code:200};
+});
+
+Mock.mock('/mock/cart/cartList','get',()=>{
+    let cartList = {
+        cartInfoList:[]
+    }
+
+    for(let key of mockCartList.keys()){
+        cartList.cartInfoList.push({
+            id:Mock.Random.increment(),
+            isChecked:mockCartChecked.get(key),
+            imgUrl:Mock.Random.dataImage('616x616'),
+            skuName:Mock.Random.csentence(),
+            skuPrice:Mock.Random.integer(100,10000),
+            skuNum:mockCartList.get(key),
+            skuId:key
+        })
+    }
+
+    return {code:200,data:[cartList]};
+});
 
 Mock.mock(/\/cart\/deleteCart/,'delete',(options)=>{
     console.log(options);

@@ -427,7 +427,7 @@ export default {
       try {
         //成功
         await this.$store.dispatch("addOrUpdateShopCart", {
-          skuId: this.$route.params.skuid,
+          skuId: this.$route.params.skuId,
           skuNum: this.skuNum,
         });
         //3:进行路由跳转
