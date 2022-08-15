@@ -98,5 +98,5 @@ export  const reqPayStatus = (orderId)=>mockRequests({url:`/payment/weixin/query
 //获取个人中心的数据
 //api/order/auth/{page}/{limit}  get 
 // export const reqMyOrderList = (page,limit)=>requests({url:`/order/auth/${page}/${limit}`,method:'get'});
-export const reqMyOrderList = (page,limit)=>mockRequests({url:`/order/auth/${page}/${limit}`,method:'get'});
+export const reqMyOrderList = (page,limit)=>mockRequests({url:'/order/auth/',data:{page,limit},method:'get'});
 

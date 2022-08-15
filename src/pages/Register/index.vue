@@ -28,7 +28,7 @@
           v-validate="{ required: true, regex: /^\d{6}$/ }"
           :class="{ invalid: errors.has('code') }"
         />
-        <button style="width:100px;height:38px" @click="getCode">
+        <button style="width:100px;height:38px" @click="getCode" :disabled="phone && errors.has('phone')">
           获取验证码
         </button>
         <span class="error-msg">{{ errors.first("code") }}</span>

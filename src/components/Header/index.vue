@@ -4,7 +4,7 @@
     <div class="top">
       <div class="container">
         <div class="loginList">
-          <p>尚品汇欢迎您！</p>
+          <p>JD欢迎您！</p>
           <!-- 没有用户名：未登录 -->
           <p v-if="!userName">
             <span>请</span>
@@ -21,10 +21,10 @@
         <div class="typeList">
           <router-link to="/center/myorder">我的订单</router-link>
           <router-link to="/shopcart">我的购物车</router-link>
-          <a href="###">我的尚品汇</a>
-          <a href="###">尚品汇会员</a>
+          <a href="###">我的JD</a>
+          <a href="###">JD会员</a>
           <a href="###">企业采购</a>
-          <a href="###">关注尚品汇</a>
+          <a href="###">关注JD</a>
           <a href="###">合作招商</a>
           <a href="###">商家后台</a>
         </div>

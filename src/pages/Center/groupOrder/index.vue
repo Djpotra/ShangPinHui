@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="div">
        我是团购订单内容
   </div>
 </template>
@@ -10,6 +10,8 @@ export default {
 }
 </script>
 
-<style scoped>
-
+<style lang="less" scoped>
+  .div{
+    font-size: 100px;
+  }
 </style>

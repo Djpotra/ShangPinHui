@@ -1,5 +1,6 @@
 //对于axios进行二次封装
 import axios from "axios";
+import store from "@/store";
 import nprogress from "nprogress";
 //如果出现进度条没有显示：一定是你忘记了引入样式了
 import "nprogress/nprogress.css";
@@ -15,6 +16,11 @@ let requests = axios.create({
 requests.interceptors.request.use((config) => {
   //现在的问题是config是什么?配置对象
   //可以让进度条开始动
+
+  if(store.state.user.token){
+    config.headers.token = store.state.user.token;
+  }
+
   nprogress.start();
   // console.log(config);
   return config;

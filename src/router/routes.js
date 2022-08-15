@@ -129,7 +129,7 @@ export default [
         component: MyOrder,
       },
       {
-        path: 'groupbuy',
+        path: 'grouporder',
         component: GroupBuy,
       },
 

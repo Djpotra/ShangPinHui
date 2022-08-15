@@ -5,7 +5,7 @@
     <router-view></router-view>
     <!-- 在Home与Search可见的，但是Login|Register不可见 -->
     <!-- 利用路由元信息解决当前问题好处：一行代码就可以解决 -->
-    <Footer v-show="$route.meta.isShow" />
+    <Footer v-show="!$route.meta.isHideFooter" />
   </div>
 </template>
 

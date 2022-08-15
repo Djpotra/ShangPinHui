@@ -1,0 +1,23 @@
+[
+    {
+        "id":"@increment()",
+        "consignee":"@cword(2,3)",
+        "fullAddress":"@cword(2)省 @cword(2)市 @cword(2)区 @cword(4)",
+        "phoneNum":"@integer(15800000000,15899999999)",
+        "isDefault":1
+    },
+    {
+        "id":"@increment()",
+        "consignee":"@cword(2,3)",
+        "fullAddress":"@cword(2)省 @cword(2)市 @cword(2)区 @cword(4)",
+        "phoneNum":"@integer(15800000000,15899999999)",
+        "isDefault":0
+    },
+    {
+        "id":"@increment()",
+        "consignee":"@cword(2,3)",
+        "fullAddress":"@cword(2)省 @cword(2)市 @cword(2)区 @cword(4)",
+        "phoneNum":"@integer(15800000000,15899999999)",
+        "isDefault":0
+    }
+]

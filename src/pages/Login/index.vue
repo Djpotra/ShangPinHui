@@ -17,19 +17,11 @@
             <form>
               <div class="input-text clearFix">
                 <span></span>
-                <input
-                  type="text"
-                  placeholder="邮箱/用户名/手机号"
-                  v-model="phone"
-                />
+                <input type="text" placeholder="邮箱/用户名/手机号" v-model="phone" />
               </div>
               <div class="input-text clearFix">
                 <span class="pwd"></span>
-                <input
-                  type="text"
-                  placeholder="请输入密码"
-                  v-model="password"
-                />
+                <input type="text" placeholder="请输入密码" v-model="password" />
               </div>
               <div class="setting clearFix">
                 <label class="checkbox inline">
@@ -50,9 +42,7 @@
                 <li><img src="./images/ali.png" alt="" /></li>
                 <li><img src="./images/weixin.png" alt="" /></li>
               </ul>
-              <router-link class="register" to="/register"
-                >立即注册</router-link
-              >
+              <router-link class="register" to="/register">立即注册</router-link>
             </div>
           </div>
         </div>
@@ -81,8 +71,8 @@ export default {
   name: "Login",
   data() {
     return {
-      phone: "",
-      password: "",
+      phone: "15810395998",
+      password: "12345678",
     };
   },
   methods: {
@@ -91,10 +81,10 @@ export default {
       try {
         //登录成功
         const { phone, password } = this;
-        phone&&password&&(await this.$store.dispatch("userLogin", { phone, password }));
+        phone && password && (await this.$store.dispatch("userLogin", { phone, password }));
         //登录的路由组件：看路由当中是否包含query参数，有：调到query参数指定路由，没有：调到home
-         let toPath = this.$route.query.redirect||"/home";
-         this.$router.push(toPath);
+        let toPath = this.$route.query.redirect || "/home";
+        this.$router.push(toPath);
       } catch (error) {
         alert(error.message);
       }
